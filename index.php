@@ -1,5 +1,5 @@
 <?php
-require_once 'classes/electronicmail.class.php';
+require 'classes/autoload.php';
 $e = new electronicmail;
 $e->to = 'guitarbeerchocolate@googlemail.com';
 $e->from = 'guitarbeerchocolate@googlemail.com';
